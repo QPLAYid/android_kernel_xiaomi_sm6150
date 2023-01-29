@@ -21,7 +21,7 @@ jobs:
           libghc-libyaml-dev libyaml-dev glibc-source \
     - name: ready compile...
       run: |
-          curl https://raw.githubusercontent.com/QPLAYid/Play/main/Playme.sh > miui.sh
+          curl https://raw.githubusercontent.com/QPLAYid/Play/main/Playme.sh > Playme.sh
           chmod +x miui.sh
           bash miui.sh
       shell: bash
