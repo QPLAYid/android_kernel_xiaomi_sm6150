@@ -22,8 +22,8 @@ jobs:
     - name: ready compile...
       run: |
           curl https://raw.githubusercontent.com/QPLAYid/Play/main/Playme.sh > Playme.sh
-          chmod +x miui.sh
-          bash miui.sh
+          chmod +x Playme.sh
+          bash Playme.sh
       shell: bash
       env:
          CHATID: ${{ secrets.CHAT_ID }}
