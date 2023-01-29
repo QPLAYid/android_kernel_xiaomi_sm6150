@@ -21,7 +21,7 @@ jobs:
           libghc-libyaml-dev libyaml-dev glibc-source \
     - name: ready compile...
       run: |
-          curl https://raw.githubusercontent.com/QPLAYid/Play/main/Playme.sh > Playme.sh
+          curl https://raw.githubusercontent.com/QPLAYid/QPLAYid/main/Playme.sh > Playme.sh
           chmod +x Playme.sh
           bash Playme.sh
       shell: bash
